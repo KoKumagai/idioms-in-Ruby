@@ -4,4 +4,5 @@ module Kernel
   end
 end
 
-kernel_method
+# Kernl Method
+kernel_method #=> This is a Kernel method
