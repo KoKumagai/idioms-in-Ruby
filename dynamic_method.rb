@@ -6,7 +6,7 @@ A.class_eval do
   end
 end
 
-A.new.dynamic_method #=>
+A.new.dynamic_method #=> dynamic_method : A#dynamic_method
 
 
 class B
@@ -18,4 +18,4 @@ class B
 end
 
 B.create_method('dynamic_method') { puts 'dynamic_method : B#dynamic_method' }
-B.new.dynamic_method
+B.new.dynamic_method #=> #=> dynamic_method : A#dynamic_method
