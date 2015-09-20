@@ -1,7 +1,7 @@
 array = [1, 2, 3]
 
 # Parallel assignment
-a, b, c, d = array
+a, b, c = array
 
 # equivalent to
 # a = array[0]
