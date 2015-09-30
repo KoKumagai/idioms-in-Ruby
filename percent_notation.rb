@@ -38,9 +38,9 @@ p [:Matz, :DHH, :'#{name}'] #=> [:Matz, :DHH, :"\#{name}"]
 
 
 # %x
-p %x(date)
+p %x(date) #=> "Tue 29 Sep 2015 23:57:08 PDT\n"
 # equivalent to
-p `date`
+p `date` #=> "Tue 29 Sep 2015 23:57:08 PDT\n"
 
 
 # %s
